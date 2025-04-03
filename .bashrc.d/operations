@@ -1,0 +1,10 @@
+opsdir=/opt/biznuvo/apps/designer
+opslog=/opt/biznuvo/logs/designer
+
+alias cdo='cd $opsdir'
+alias cdl='cd $opslog'
+
+alias tfo='tail -F $opslog/app.log'
+alias llo='less $opslog/app.log'
+
+alias updateops='sudo -u tomcat /opt/tomcat/updateops.sh'

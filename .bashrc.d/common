@@ -1,0 +1,5 @@
+alias tm='sudo -u tomcat'
+alias tmb='sudo -u tomcat bash'
+
+alias wrapoff='setterm -linewrap off'
+alias wrapon='setterm -linewrap on'

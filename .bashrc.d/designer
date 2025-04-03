@@ -1,0 +1,12 @@
+desdir=/opt/biznuvo/apps/designer
+deslog=/opt/biznuvo/logs/designer
+
+alias cdd='cd $desdir'
+alias cdl='cd $deslog'
+alias cdw='cd $desdir/work'
+
+alias tfd='tail -F $deslog/app.log'
+alias lld='less $deslog/app.log'
+
+alias cpapp='cp $desdir/work/app-development#design#operations.tgz /mnt/shared'
+alias updatedes='sudo -u tomcat /opt/tomcat/updatedes.sh'
