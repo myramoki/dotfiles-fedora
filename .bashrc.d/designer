@@ -1,5 +1,5 @@
-desdir=/opt/biznuvo/apps/development#design#operations
-deslog=/opt/biznuvo/logs/development#design#operations
+desdir=/opt/biznuvo/apps/designer
+deslog=/opt/biznuvo/logs/designer
 
 alias cdd='cd $desdir'
 alias cdl='cd $deslog'

@@ -1,5 +1,5 @@
-opsdir=/opt/biznuvo/apps/designer
-opslog=/opt/biznuvo/logs/designer
+opsdir=/opt/biznuvo/apps/development#design#operations
+opslog=/opt/biznuvo/logs/development#design#operations
 
 alias cdo='cd $opsdir'
 alias cdl='cd $opslog'
