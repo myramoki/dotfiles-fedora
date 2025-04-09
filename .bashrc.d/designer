@@ -9,4 +9,4 @@ alias tfd='tail -F $deslog/app.log'
 alias lld='less $deslog/app.log'
 
 alias cpapp='cp $desdir/work/app-development#design#operations.tgz /mnt/shared'
-alias updatedes='sudo -u tomcat /opt/tomcat/.local/bin/updatedes.sh'
+alias updatedes='sudo -u tomcat /opt/tomcat/.local/bin/updatedes'
