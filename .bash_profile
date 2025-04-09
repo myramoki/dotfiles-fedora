@@ -1,6 +1,7 @@
 # .bash_profile
 
 if [[ ! -f ~/.dotfiles.upd || $(date -r ~/.dotfiles.upd +%s) -lt $(date -d "-1 hour" +%s) ]]; then
+    printf "!! Updating dotfiles !!\n"
     touch ~/.dotfiles.upd
     cd ~/.dotfiles
     git pull
