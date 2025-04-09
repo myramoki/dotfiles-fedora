@@ -7,4 +7,4 @@ alias cdl='cd $opslog'
 alias tfo='tail -F $opslog/app.log'
 alias llo='less $opslog/app.log'
 
-alias updateops='sudo -u tomcat /opt/tomcat/updateops.sh'
+alias updateops='sudo -u tomcat /opt/tomcat/.local/bin/updateops.sh'
