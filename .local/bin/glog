@@ -9,4 +9,4 @@ else
     dest=designer
 fi
 
-zgrep -il "$match" /opt/biznuvo/logs/$dest/app.log /opt/biznuvo/logs/2025-*/*
+zgrep -il "$match" /opt/biznuvo/logs/$dest/app.log /opt/biznuvo/logs/$dest/2025-*/*
