@@ -1,0 +1,12 @@
+#!/bin/bash
+
+dest=$1
+match=$2
+
+if [[ $dest = ops ]]; then
+    dest=desigdevelopment#design#operationsner
+else
+    dest=designer
+fi
+
+zgrep -il "$match" /opt/biznuvo/logs/$dest/app.log /opt/biznuvo/logs/2025-*/*

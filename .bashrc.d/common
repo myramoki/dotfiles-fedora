@@ -4,4 +4,4 @@ alias tmb='sudo -u tomcat bash'
 alias woff='setterm -linewrap off'
 alias won='setterm -linewrap on'
 
-alias updot='(cd ~/.dotfiles; git pull); . ~/.bashrc'
+alias updot='updot; exec bash'
