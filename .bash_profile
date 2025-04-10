@@ -1,6 +1,8 @@
 # .bash_profile
 
-updot
+if [ -f ~/.local/bin/updot ]; then
+    ~/.local/bin/updot
+fi
 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
