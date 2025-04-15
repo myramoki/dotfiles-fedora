@@ -1,0 +1,4 @@
+installbuild() {
+    sudo tar xvf $(latest ~/biznuvo-server-v2/build biznuvo-install) -C /opt/biznuvo
+    sudo chown -R tomcat: /opt/biznuvo/installation_archives
+}
